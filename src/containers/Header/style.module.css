@@ -1,0 +1,83 @@
+.header{
+    padding-top: 70px;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.navbar::after {
+    background-color: #BA160A;
+    bottom: -4px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar .left {
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right {
+    padding-right: 18px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .right .logo-euro {
+    width: 120px;
+    height: 48px;
+}
+
+.navbar .right .menu {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 24px;
+    list-style: none;
+}
+
+.navbar .right .menu li {
+    color: white;
+    margin-right: 24px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navbar .right .menu li:hover {
+    color: #BA160A;
+    transition: all 0.3s;
+}
+
+.navbar .right .menu li .text {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.icon-hamburger {
+    width: 26px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+}

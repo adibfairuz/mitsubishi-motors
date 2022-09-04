@@ -1,0 +1,23 @@
+.select {
+    width: 100%;
+    position: relative;
+}
+
+.select select {
+    min-width: 100%;
+    padding: 12px 16px;
+    padding-left: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.select .icon-search {
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

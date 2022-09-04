@@ -1,0 +1,48 @@
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .image {
+    height: 100%;
+}
+
+.banner .filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.1) 20%, #000000 70.17%);
+    padding: 34px 48px;
+}
+
+.banner .filter .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    max-width: 500px;
+    margin-bottom: 18px;
+}
+.banner .filter .decription {
+    color: white;
+    max-width: 500px;
+    line-height: 25.6px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner .filter .download {
+    margin-top: 22px;
+}
+
+.banner .filter .download img {
+    cursor: pointer;
+}
+
+.banner .filter .download img:first-child {
+    margin-right: 18px;
+}

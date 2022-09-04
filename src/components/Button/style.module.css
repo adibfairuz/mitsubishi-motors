@@ -1,0 +1,16 @@
+.button-black {
+  background: black;
+  color: white;
+}
+
+.button-white {
+  background: white;
+  color: black;
+}
+
+.button-black,
+.button-white {
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
