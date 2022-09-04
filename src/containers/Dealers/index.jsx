@@ -35,6 +35,7 @@ const Dealers = () => {
 
     const handleChangeLocation = async (e) => {
         const keyword = e?.target?.value
+        setDealers({})
         setIsLoading(true)
         const res = await getDealers({
             page: 1,
